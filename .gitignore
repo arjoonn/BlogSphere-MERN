@@ -1,0 +1,26 @@
+# === General ===
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# === Client (React) ===
+client/node_modules/
+client/.env
+client/build/
+client/.next/
+client/dist/
+client/.cache/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# === Server (Node.js) ===
+server/node_modules/
+server/.env
+server/logs/
+server/uploads/
+server/temp/
+*.pem
+*.key
